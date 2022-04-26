@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin::0px;
+	padding:0px;}
+.header{
+	height:50px;
+	width:100%;
+	background-color:#cf4646;}
+.banner{
+	height:380px;
+	width:100%;
+	background-color:#cf4646;
+	text-align:center;}
+.banner .logo{
+	margin-top:50px;
+	margin-left:550px;}
+.banner p{
+	font-size:22px;
+	color:#fff;
+	margin:10px auto 40px;}
+.banner .btm{
+	font-size:18px;
+	color:#eee;
+	border:1px #eee solid;
+	padding:10px 15px;}
+.banner .btm:hover{
+	color:#fff;
+	border-color:#fff;}
+.main{
+	height:210px;
+	width:1100px;
+	margin:60px auto;}
+.main .box1{
+	width:550px;
+	height:105px;
+	float:left;
+	padding:0px 0px;}
+.main .box2{
+	width:550px;
+	height:105px;
+	float:right;
+	padding:0px 0px;}
+.main .box3{
+	width:550px;
+	height:105px;
+	float:left;
+	padding:0px 0px;}
+.main .box4{
+	width:550px;
+	height:105px;
+	float:right;
+	padding:0px 0px;
+	}
+.main p{margin-top:10px;}
+.footer{
+	height:80px;
+	width:100%;}
+.footer .text{
+	text-align:center;
+	color:#999;}
+.header .hdtext{
+	width:1100px;
+	height:50px;
+	margin:0px auto;}
+ul{list-style:none;}
+a{text-decoration:none;}
+body{font-family:"微软雅黑";}
+.header .logo{
+	float:left;
+	font-size:18px;
+	line-height:50px;}
+.header .nav{float:right;}
+.header .nav li{float:left;}
+.header .nav a{
+	font-size:14px;
+	line-height:50px;
+	display:block;
+	padding:0 15px;}
+.header a:hover{color:#fff;}
+.header a{color:#ccc;}
+
